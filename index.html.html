@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>University of Arizona Student Information Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+
+    }
+
+    body {
+      font-family: sans-serif;
+      background-color: #808080;
+      margin: 50px 0px;
+      padding: 0px;
+      text-align: center;
+    }
+
+
+    header {
+      background-image: url(color.jpeg);
+      color: #202020;
+      background-color: #808080;
+      text-decoration: underline;
+      width: 100%;
+      height: auto;
+    }
+    h1 {
+      text-align: center;
+      color: #202020;
+      style="font-size:300%;
+left&right
+    }
+
+    h3 {
+      text-align: center;
+      background-color: #808080;
+      padding: 20px; //top&bottom,
+      left&right
+    }
+
+
+    q nav ul {
+      list-style-type: none;
+      padding: 20px;
+    }
+
+    article {
+      float: left;
+      padding: 50px;
+      width: 100%;
+      background-color: #808080;
+    }
+
+
+    section:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+
+    footer {
+      background-color: #808080;
+      padding: 2px;
+      text-align: center;
+      color: #202020;
+    }
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+    @media (max-width: 120px) {
+
+      nav,
+      article {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+
+
+<body>
+
+  <h1>Hello, we are the digital design group in INFV 498!</h1>
+  <h2> We will be discussing a few various degree programs through our website</h2>
+  <p>Mark and I are working towards a BAS in Informatics with plans to graduate within the next few weeks</p>
+  <img src="5bcbba8157b92.jpeg" alt="Trulli" width="500" height="333">
+
+  <h1>Facts about the University</h1>
+  <ol>
+    <li>University of Arizona was founded in 1885, before Arizona was a state.</li>
+    <li>U of A Department of Geosciences maintains the #1 mineral database in the world.</li>
+    <li> The University of Arizona is the only school in the nation to offer a Bachelor of Arts in Law degree.</li>
+    <li>The Department of Ecology and Evolutionary Biology at the University of Arizona was the first of its kind in the world, founded in 1975.</li>
+    <li>Three University of Arizona faculty members have won Nobel Prizes.</li>
+  </ol>
+
+
+  <header>Yuma</header>
+  <p>Click the Yuma Arizona link for extensive information about the University</p>
+  <form action="https://yuma.arizona.edu">
+    <input type="submit" value="Go to Yuma" />
+  </form>
+
+  <p>Below is a link to the Popular programs page</p>
+
+  <form action="file:///Users/ben/Desktop/INFV48.final/page1.html/popularprograms.html">
+    <input type="submit" value="Popular Programs" />
+  </form>
+
+  <p>Below is a link to the Informatics page</p>
+
+  <form action="file:///Users/ben/Desktop/INFV48.final/page20.html">
+    <input type="submit" value="Informatics" />
+  </form>
+
+</body>
+
+</html>
